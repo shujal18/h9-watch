@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">H9 Pro Max BLE Explorer</string>
+
+    <string name="main_title">H9 Pro Max BLE Explorer</string>
+    <string name="bluetooth_status_format">Bluetooth: %1$s</string>
+    <string name="bluetooth_on">ON</string>
+    <string name="bluetooth_off">OFF</string>
+    <string name="bluetooth_unavailable">UNAVAILABLE</string>
+
+    <string name="btn_scan">SCAN</string>
+    <string name="btn_stop">STOP</string>
+    <string name="btn_enable_bluetooth">ENABLE BLUETOOTH</string>
+    <string name="btn_open_log">BLE LOG</string>
+    <string name="btn_connect">CONNECT</string>
+    <string name="btn_disconnect">DISCONNECT</string>
+    <string name="btn_read">READ</string>
+    <string name="btn_enable_notifications">ENABLE NOTIFICATIONS</string>
+    <string name="btn_disable_notifications">DISABLE NOTIFICATIONS</string>
+    <string name="btn_write">WRITE</string>
+    <string name="btn_write_no_response">WRITE WITHOUT RESPONSE</string>
+    <string name="btn_clear_log">CLEAR LOG</string>
+    <string name="btn_export_log">EXPORT LOG</string>
+
+    <string name="scanning">Scanning…</string>
+    <string name="scan_idle">Press SCAN to look for BLE devices</string>
+    <string name="scan_timeout_hint">Scan stops automatically after 20 seconds.</string>
+    <string name="devices_header">Discovered Devices</string>
+    <string name="no_devices">No devices found yet.</string>
+
+    <string name="permission_needed">Bluetooth scan permission(s) are required to discover devices.</string>
+    <string name="permission_denied">Permission denied. BLE scanning cannot start.</string>
+    <string name="permission_denied_permanent">Permission denied permanently. Please enable it in system settings.</string>
+    <string name="location_needed">On this Android version, Location services must be enabled for BLE scanning.</string>
+    <string name="bluetooth_needed">Bluetooth is disabled. Enable it to scan for devices.</string>
+
+    <string name="device_name_label">Device Name</string>
+    <string name="device_address_label">Address (MAC)</string>
+    <string name="device_rssi_label">RSSI</string>
+    <string name="connection_label">Connection</string>
+    <string name="connection_disconnected">DISCONNECTED</string>
+    <string name="connection_connecting">CONNECTING</string>
+    <string name="connection_connected">CONNECTED</string>
+    <string name="connection_disconnecting">DISCONNECTING</string>
+    <string name="connection_failed">CONNECTION FAILED</string>
+    <string name="services_header">Services</string>
+    <string name="no_services">No services discovered. Connect first.</string>
+
+    <string name="char_service_uuid">Service UUID</string>
+    <string name="char_uuid">Characteristic UUID</string>
+    <string name="char_properties">Properties</string>
+    <string name="char_permissions">Permissions</string>
+    <string name="char_descriptors">Descriptors</string>
+    <string name="raw_data_header">Raw Data</string>
+    <string name="raw_hex">HEX</string>
+    <string name="raw_decimal">DECIMAL</string>
+    <string name="raw_ascii">ASCII</string>
+    <string name="write_header">Write HEX</string>
+    <string name="write_hint">Example: AA 01 02 03</string>
+    <string name="write_warning">Writing unknown BLE commands may cause unexpected behavior. Only send data you understand.</string>
+    <string name="write_empty">Enter HEX bytes first.</string>
+    <string name="write_invalid">Invalid HEX input. Use pairs of hex digits, e.g. AA 01 02 03.</string>
+    <string name="notification_history">Notification / Data History</string>
+    <string name="last_rx">Latest RX</string>
+
+    <string name="log_header">BLE Log</string>
+    <string name="table_delimeter">--------------------------------</string>
+    <string name="export_title">Export BLE session log</string>
+</resources>
